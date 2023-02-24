@@ -33,6 +33,3 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           dangerous-clean-slate: true
           local-dir: ./
-
-      - name: Deploy Next.js app
-        run: npx serverless
